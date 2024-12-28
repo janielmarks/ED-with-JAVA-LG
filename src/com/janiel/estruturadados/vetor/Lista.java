@@ -118,6 +118,22 @@ public class Lista<T> {
             this.remove(pos);
         }
     }
+    public void limpar(){
+
+
+        //opcao 1
+        this.elementos = (T[]) new Object[this.elementos.length];
+
+        // opcao 2
+        this.tamanho = 0;
+
+        //opcao 3
+        for(int i=0; i<this.tamanho; i++){
+            this.elementos[i] = null;
+        }
+        this.tamanho = 0;
+    }
+
 
     public int tamanho(){
         return this.tamanho;
