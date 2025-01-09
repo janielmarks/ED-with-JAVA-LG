@@ -4,8 +4,8 @@ import java.security.PublicKey;
 
 public class EstruturaEstatica<T> {
 
-    private T[] elementos;
-    private int tamanho;
+    protected T[] elementos;
+    protected int tamanho;
 
     public EstruturaEstatica(int capacidade) {
         this.elementos = (T[]) new Object[capacidade]; // solução com base no livro Effective Java
