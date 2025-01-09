@@ -3,7 +3,6 @@ package com.janiel.estruturadados.vetor.labs;
 import com.janiel.estruturadados.vetor.Lista;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Exer02 {
     public static void main(String[] args) {

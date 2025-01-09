@@ -1,7 +1,6 @@
 package com.janiel.estruturadados.vetor.teste;
 
 import com.janiel.estruturadados.vetor.Lista;
-import com.janiel.estruturadados.vetor.VetorObjetos;
 
 public class Aula11 {
     public static void main(String[] args) {

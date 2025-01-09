@@ -3,7 +3,6 @@ package com.janiel.estruturadados.vetor.labs;
 import com.janiel.estruturadados.vetor.Lista;
 import com.janiel.estruturadados.vetor.teste.Contato;
 
-import java.util.List;
 import java.util.Scanner;
 
 public class Exer06 {
