@@ -24,6 +24,19 @@ public class ListaEncadeada<T> {
     public int getTamanho(){
         return this.tamanho;
     }
+
+    public void limpa(){
+        this.inicio = null;
+        this.ultimo = null;
+        this.tamanho = 0;
+
+        for(No<T> atual = this.inicio; atual != null;) {
+            No<T> proximo = atual.getProximo();
+            atual.setProximo(null);
+            atual = proximo;
+        }
+
+    }
     @Override
     public String toString() {
 

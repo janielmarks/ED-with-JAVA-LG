@@ -17,7 +17,8 @@ public class ListaEncadeadaTeste {
         System.out.println(lista);
 
 
-        
+        lista.limpa();
+        System.out.println(lista);
     }
     
 }
